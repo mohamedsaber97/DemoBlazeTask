@@ -38,7 +38,7 @@ public class S1_RegisterSteps extends TestBase {
 
     @Then("alert of account creation is displayed and user accept that")
     public void alertOfAccountCreationIsDisplayedAndUserAcceptThat() throws InterruptedException {
-        p1_registerPage.acceptAlertDialog();
+        p1_registerPage.acceptRegisterAlertDialog();
     }
 
 }

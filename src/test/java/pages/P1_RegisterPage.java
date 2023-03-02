@@ -33,7 +33,7 @@ public class P1_RegisterPage extends TestBase {
         registerBtnElement.click();
     }
 
-    public void acceptAlertDialog() throws InterruptedException {
+    public void acceptRegisterAlertDialog() throws InterruptedException {
         Thread.sleep(2000);
         String alertMsg = driver.switchTo().alert().getText();
         System.out.println("-----new account status is : " + alertMsg);

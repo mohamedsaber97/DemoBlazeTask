@@ -1,4 +1,4 @@
-@smoke @auth
+@smoke
 Feature:user should be able to login into website
 
   Scenario:user can login with registered data

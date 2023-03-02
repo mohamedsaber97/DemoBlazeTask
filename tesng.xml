@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
-<suite name="Authentication" verbose="1">
+<suite name="Authentication and Order" verbose="1">
     <test name="Smoke Test">
         <classes>
             <class name="runners.TestRunner"/>

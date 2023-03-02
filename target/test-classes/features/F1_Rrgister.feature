@@ -1,4 +1,4 @@
-@smoke @auth
+@smoke @integration
 Feature:user should be able to register into website
 
   Scenario:user can register with valid data

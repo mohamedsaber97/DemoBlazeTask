@@ -4,31 +4,32 @@ Feature:user should be able to make a successful order in website
   Scenario:user can show items of listed category
     Given user open demoBlaze website with url
     And user navigate to login page
-    When user send username and password
+    When user send login username and password
     And user click on login button
     Then home page is opened and welcome text is displayed
-    And user click on each listed category
-    And items of selected category is displayed
+    And user click on phones category and check item display
 
-  @sanity
+  @smoke @integration
   Scenario:user can add random item to cart and remove it
     Given user open demoBlaze website with url
     And user navigate to login page
-    When user send username and password
+    When user send login username and password
     And user click on login button
     Then home page is opened and welcome text is displayed
+    And user click on phones category and check item display
     When user click on random item and add it to cart
     Then alert of item added is displayed and user accept that
     And user navigate to cart page
     And user delete item from cart
 
-  @integration
+  @smoke @integration
   Scenario:user can complete successful checkout
     Given user open demoBlaze website with url
     And user navigate to login page
-    When user send username as and password
+    When user send login username and password
     And user click on login button
     Then home page is opened and welcome text is displayed
+    And user click on phones category and check item display
     When user click on random item and add it to cart
     Then alert of item added is displayed and user accept that
     When user navigate to cart page
