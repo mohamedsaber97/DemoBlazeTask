@@ -3,8 +3,7 @@
 <suite name="Authentication" verbose="1">
     <test name="Smoke Test">
         <classes>
-            <class name="runners.TestRunner">
-            </class>
+            <class name="runners.TestRunner"/>
         </classes>
     </test>
 </suite>

@@ -10,15 +10,15 @@ public class P1_RegisterPage extends TestBase {
     public P1_RegisterPage() throws IOException {
     }
 
-    By signupBtn = By.id("signin2");
+    By homeSignupBtn = By.id("signin2");
     By userNameTxt = By.id("sign-username");
     By passwordTxt = By.id("sign-password");
     By registerBtn = By.xpath("//*[@onclick = 'register()']");
 
 
     public void openSignUpPage() {
-        WebElement signupBtnElement = driver.findElement(signupBtn);
-        signupBtnElement.click();
+        WebElement homeSignupBtnElement = driver.findElement(homeSignupBtn);
+        homeSignupBtnElement.click();
     }
 
     public void fillSignUpData() {

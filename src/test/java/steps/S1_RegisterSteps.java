@@ -26,8 +26,8 @@ public class S1_RegisterSteps extends TestBase {
         p1_registerPage.openSignUpPage();
     }
 
-    @When("user send username and password")
-    public void userSendUsernameAndPassword() {
+    @When("user send register username and password")
+    public void userSendRegisterUsernameAndPassword() {
         p1_registerPage.fillSignUpData();
     }
 
