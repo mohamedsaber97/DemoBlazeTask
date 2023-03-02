@@ -1,5 +1,5 @@
 # DemoBlazeTask
-Test Automation Task on DemoBlaze Website with Cucumber and TestNG
+Test Automation Task on Demo Blaze Website with Cucumber and TestNG
 
 programing language --> Java
 
